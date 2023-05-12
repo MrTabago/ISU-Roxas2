@@ -1,0 +1,196 @@
+
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #000000;
+    background-color: #ffffff; 
+  }
+  
+ 
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  header h1 {
+    margin: 0;
+    color: #000000;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+  }
+  
+  nav li {
+    margin-left: 20px;
+  }
+  
+  nav a {
+    color: #000000; 
+    text-decoration: none;
+  }
+  
+  nav a:hover {
+    text-decoration: underline;
+  }
+  
+ 
+  main {
+    padding: 20px;
+    color: #000000; 
+  }
+  
+  main h2 {
+    margin-top: 0;
+    color: #000000;
+  }
+
+  footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+    color: #000000;
+  }
+
+  body.night-mode {
+    background-color: #333333;
+    color: #ffffff;
+  }
+  
+  body.night-mode header {
+    background-color: #222222;
+  }
+  
+  body.night-mode header nav ul li a,
+  body.night-mode #night-mode-toggle {
+    color: #ffffff;
+  }
+  
+  body.night-mode header h1 {
+    color: #ffffff;
+  }
+  
+  body.night-mode main {
+    color: #ffffff;
+  }
+  
+  body.night-mode main h2 {
+    color: #ffffff;
+  }
+  
+  body.night-mode footer {
+    background-color: #222222;
+    color: #ffffff;
+  }
+  #night-mode-toggle {
+    color: #fffbfb;
+    background-color: #000000;
+  }
+  
+  body.night-mode #night-mode-toggle {
+    color: #000000;
+    background-color: #ffffff;
+  }
+  .button {
+    display: inline-block;
+    appearance: auto;
+    user-select: none;
+    white-space: pre;
+    align-items: flex-start;
+    text-align: center;
+    cursor: default;
+    box-sizing: border-box;
+    background-color: buttonface;
+    color: buttontext;
+    border-width: 5px;
+  
+  }
+.eye{
+  position:absolute;
+
+}
+#eye1{
+  display: none;
+}
+h2{
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.form-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+form {
+  margin: 0 auto;
+}
+
+.password-container {
+  position: relative;
+}
+
+.password-icon {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+
+.button {
+  display: block;
+  width: 50%;
+  max-width: 100px;
+  height: 40px;
+  margin: 0 auto; 
+  /* center horizontally */
+  margin-top: 20px;
+  padding: 10px;
+  text-align: center;
+  background-color: #bec1be;
+  color: rgb(36, 35, 35);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.avatar {
+  height: auto;
+  width: 100px; 
+  /* Adjust the width as needed */
+  margin-right: 20px;
+  /* Add some right margin to separate from the navigation */
+}
+
+.header {
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 0;
+}
+
+h3 {
+  margin-top: 0;
+}
+.logo-heading {
+  display: flex;
+  align-items: center;
+}
+
+.logo-heading img {
+  margin-right: 10px;
+   /* adjust this to your preference */
+}
+
+

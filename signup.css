@@ -1,0 +1,38 @@
+.form-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 100vh;
+  }
+  
+  form {
+    margin: 0 auto;
+  }
+  
+  .password-container {
+    position: relative;
+  }
+  
+  .password-icon {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    cursor: pointer;
+  }
+  h2{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    color: #f8f4f4;
+    font-weight: bold;
+  }
+  
+  body {
+    background-image: url('pic/isu3.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+  

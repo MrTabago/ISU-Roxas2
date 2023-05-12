@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Website</title>
+  <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+</head>
+<body>
+  <header>
+    <div class="header">
+      <img src="pic/isu3.png" alt="ISU logo" class="avatar">
+      <div class="logo-heading">
+        
+        <h1>Isabela State University Roxas Campus</h1>
+      </div>
+      <h3><i>General</i></h3>
+    </div>
+    <div class="bar-header">
+      <button type="button" class="bar-toggle" data-toggle="collapse" data-target=".bar-collapse">
+        <i class="fa fa-list" aria-hidden="true"></i>
+      </button>
+    </div>    
+    <div class="bar-collapse in" style="height: auto;">
+      <ul class="bar-nav">
+        <li><a href="index.html"><i class="fa fa-home" aria-hidden="true"></i> Home</a></li>
+        <li><a href="about.html"><i class="fa fa-question" aria-hidden="true"></i> About</a></li>
+        <li><a href="news.html"><i class="fa fa-newspaper-o" aria-hidden="true"></i> News</a></li>
+        <li><button id="night-mode-toggle">Night Mode<i class="fas fa-moon"></i></button></li>
+      </ul>
+    </div>
+    
+ 
+  </header>
+  
+
+  <main>
+    <h2>Login Form</h2>
+    <div class="form-container">
+      <form action="login.php" method="POST">
+        <label for="email"><i class="fa-solid fa-id-card fa-shake"></i></label>
+        <input type="email" placeholder="Email" id="email" name="email" required><br><br>
+        <div class="password-container">
+          <label for="password"><i class="fa-solid fa-lock fa-shake"></i>
+            <input type="password" placeholder="Password" id="password" name="password" required>
+            <i class="fa fa-eye-slash password-icon" id="eye" aria-hidden="true"></i>
+          </label>
+        </div>
+        <br><br>
+
+      </form>
+    </div>
+    <div class="center">
+      <a href="acc.html">
+        <input type="submit"value="Login">
+      </a>
+    </div>
+    <div class="center">
+      <a href="acc.html">
+        <input type="submit" value="Sign up">
+      </a>
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy; 2023 My Website</p>
+  </footer>
+
+  <script src="index.js"></script>
+
+</body>
+</html>
